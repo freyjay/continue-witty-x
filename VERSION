@@ -2,7 +2,7 @@ continue-witty v2.7.0-external
 Professional AI Collaboration Continuity System
 
 Release Date: July 31, 2025
-Build: External Release for Public Deployment
+Build: Application Release for Public Deployment
 
 Features:
 - Three-tier context packaging (light/full/complex)
@@ -12,4 +12,4 @@ Features:
 - Professional handoff capabilities
 
 Target: Other laptop deployment, clean installation
-License: MIT (External Distribution)
+License: MIT (Application Distribution)

@@ -11,7 +11,7 @@ Professional context restoration system with:
 This enables quick restoration to any snapshot state
 with full context preservation for seamless handoffs.
 
-Author: Francis & Claude (v2.7 External Release)
+Author: Francis & Claude (v2.7 Application Release)
 Created: July 31, 2025
 """
 
@@ -23,7 +23,7 @@ from pathlib import Path
 from typing import Dict, List, Optional, Any
 import shutil
 
-# External version - no persistent learning imports needed
+# Application version - no persistent learning imports needed
 
 
 class EnhancedBloomSystem:
@@ -35,7 +35,7 @@ class EnhancedBloomSystem:
         self.snapshots_dir = self.context_dir / "snapshots"
         self.bloom_state_path = os.path.expanduser("~/.continue-witty/bloom-state.json")
         
-        # External version - no learning system
+        # Application version - no learning system
         
         self.bloom_state = self._load_bloom_state()
     

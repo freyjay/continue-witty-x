@@ -102,7 +102,7 @@ if [[ -n "$SHELL_RC" ]]; then
     if ! grep -q "$INSTALL_DIR/scripts" "$SHELL_RC" 2>/dev/null; then
         print_status "Adding Continue-Witty to PATH..."
         echo "" >> "$SHELL_RC"
-        echo "# Continue-Witty v2.7 External" >> "$SHELL_RC"
+        echo "# Continue-Witty v2.7 Application" >> "$SHELL_RC"
         echo "export PATH=\"\$PATH:$INSTALL_DIR/scripts\"" >> "$SHELL_RC"
         print_warning "Added to $SHELL_RC - restart terminal or run: source $SHELL_RC"
     else
@@ -122,7 +122,7 @@ echo
 echo -e "${BLUE}🎯 Installation Complete!${NC}"
 echo "=========================="
 echo
-echo "Continue-Witty v2.7 External has been installed to:"
+echo "Continue-Witty v2.7 Application has been installed to:"
 echo "  📁 Installation: $INSTALL_DIR"
 echo "  🔧 Scripts: $SCRIPTS_DIR"
 echo "  ⚙️  Configuration: $CONFIG_DIR/config.json"
